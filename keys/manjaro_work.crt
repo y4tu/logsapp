@@ -1,0 +1,58 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            f7:96:61:23:8c:1c:5e:39:22:06:8e:47:f1:98:88:84
+        Signature Algorithm: ecdsa-with-SHA512
+        Issuer: CN=y4tu
+        Validity
+            Not Before: Mar 10 15:27:27 2022 GMT
+            Not After : Feb 22 15:27:27 2025 GMT
+        Subject: CN=manjaro_work
+        Subject Public Key Info:
+            Public Key Algorithm: id-ecPublicKey
+                Public-Key: (384 bit)
+                pub:
+                    04:22:07:ae:c3:04:9c:6d:10:f5:aa:9e:95:08:72:
+                    69:05:32:35:bd:cd:4f:b8:cf:30:a5:ec:90:ce:ec:
+                    2c:02:45:9f:d2:de:14:10:dc:4a:5b:22:26:b6:67:
+                    b7:fa:ab:ac:6c:96:50:aa:0c:5b:2d:c8:7c:2f:9e:
+                    26:b3:5f:ff:6c:01:67:f8:cc:b5:ee:30:20:f7:50:
+                    dd:04:80:99:b8:d2:99:49:ae:d1:fe:9b:17:b7:cb:
+                    70:0d:13:50:9b:31:47
+                ASN1 OID: secp384r1
+                NIST CURVE: P-384
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            X509v3 Subject Key Identifier: 
+                E6:7F:D3:B4:DD:C2:DB:E3:D9:DB:F4:32:DF:91:53:B7:D8:7B:03:9E
+            X509v3 Authority Key Identifier: 
+                keyid:62:4E:05:49:86:EB:42:42:23:5C:56:0A:D8:3C:49:61:45:9B:B2:98
+                DirName:/CN=y4tu
+                serial:02:F3:C5:B6:BC:E4:19:E4:78:B9:C1:68:CC:03:55:F9:17:EA:94:98
+
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication
+            X509v3 Key Usage: 
+                Digital Signature
+    Signature Algorithm: ecdsa-with-SHA512
+         30:65:02:30:40:eb:40:7e:3d:bb:74:58:fd:8c:84:64:45:5a:
+         55:c1:4f:d1:53:ee:4b:2b:5f:c7:52:e5:f6:26:53:83:0f:95:
+         c8:60:13:f5:4e:b0:88:0a:3a:33:d9:be:db:ff:f5:ce:02:31:
+         00:e0:23:b3:24:e8:57:18:0d:3b:64:25:fc:7c:cc:bc:53:b1:
+         5e:90:a4:1d:51:0b:58:5e:7a:7c:43:26:fc:7e:76:f0:72:7b:
+         46:51:2f:82:5c:8a:48:17:b4:cd:a7:f3:72
+-----BEGIN CERTIFICATE-----
+MIIB/jCCAYSgAwIBAgIRAPeWYSOMHF45IgaOR/GYiIQwCgYIKoZIzj0EAwQwDzEN
+MAsGA1UEAwwEeTR0dTAeFw0yMjAzMTAxNTI3MjdaFw0yNTAyMjIxNTI3MjdaMBcx
+FTATBgNVBAMMDG1hbmphcm9fd29yazB2MBAGByqGSM49AgEGBSuBBAAiA2IABCIH
+rsMEnG0Q9aqelQhyaQUyNb3NT7jPMKXskM7sLAJFn9LeFBDcSlsiJrZnt/qrrGyW
+UKoMWy3IfC+eJrNf/2wBZ/jMte4wIPdQ3QSAmbjSmUmu0f6bF7fLcA0TUJsxR6OB
+mzCBmDAJBgNVHRMEAjAAMB0GA1UdDgQWBBTmf9O03cLb49nb9DLfkVO32HsDnjBK
+BgNVHSMEQzBBgBRiTgVJhutCQiNcVgrYPElhRZuymKETpBEwDzENMAsGA1UEAwwE
+eTR0dYIUAvPFtrzkGeR4ucFozANV+RfqlJgwEwYDVR0lBAwwCgYIKwYBBQUHAwIw
+CwYDVR0PBAQDAgeAMAoGCCqGSM49BAMEA2gAMGUCMEDrQH49u3RY/YyEZEVaVcFP
+0VPuSytfx1Ll9iZTgw+VyGAT9U6wiAo6M9m+2//1zgIxAOAjsyToVxgNO2Ql/HzM
+vFOxXpCkHVELWF56fEMm/H528HJ7RlEvglyKSBe0zafzcg==
+-----END CERTIFICATE-----
