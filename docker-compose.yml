@@ -11,6 +11,9 @@ services:
   nginx:
     image: nginx
     container_name: nginx
+    ports:
+      - 80:8989
+      - 443:4343
     volumes:
       - ./default.conf:/etc/nginx/conf.d/default.conf
       - ./keys/manjaro_work.crt:/etc/nginx/manjaro_work.crt
