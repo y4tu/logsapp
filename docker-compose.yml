@@ -21,7 +21,7 @@ services:
       - ./keys/3.23.193.203.key:/etc/nginx/3.23.193.203.key
       - ./sites-available/example.com:/etc/nginx/sites-available/example.com
       - ./sites-enabled/example.com:/etc/nginx/sites-enabled/example.com
-    command: sudo rm ./sites-enabled/default
+    command: rm ./sites-enabled/default
     restart: always
     links:
       - app
