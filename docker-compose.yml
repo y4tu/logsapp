@@ -20,8 +20,8 @@ services:
       - ./keys/3.23.193.203.crt:/etc/nginx/3.23.193.203.crt
       - ./keys/3.23.193.203.key:/etc/nginx/3.23.193.203.key
       - ./sites-available/example.com:/etc/nginx/sites-available/example.com
+      - ./sites-available/default:/etc/nginx/sites-available/default
       - ./sites-enabled/example.com:/etc/nginx/sites-enabled/example.com
-      - ./sites-enabled/default:/etc/nginx/sites-enabled/default
     restart: always
     links:
       - app
