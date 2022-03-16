@@ -17,8 +17,8 @@ services:
       - 443:4430
     volumes:
       - ./default.conf:/etc/nginx/conf.d/default.conf
-      - ./keys/manjaro_work.crt:/etc/nginx/manjaro_work.crt
-      - ./keys/manjaro_work.key:/etc/nginx/manjaro_work.key
+      - ./keys/3.23.193.203.crt:/etc/nginx/3.23.193.203.crt
+      - ./keys/3.23.193.203.key:/etc/nginx/3.23.193.203.key
     restart: always
     links:
       - app
